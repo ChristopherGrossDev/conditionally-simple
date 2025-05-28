@@ -4,12 +4,16 @@
 function isItLong(str){
   if (str.length > 20){
     return "That's a long string!";
+  } else {
+    return undefined;
   }
 }
 
 function isItMedium(str) {
   if (str.length >= 10 && str.length <= 20) {
     return "That's a regular sized string!";
+  } else {
+    return undefined;
   }
 }
 
@@ -20,8 +24,6 @@ function isItShort(str) {
     return "That's not a small string!";
   }
 }
-
-
 
 function howLongIsMyString(str) {
   if (str.length > 20) {
@@ -42,6 +44,7 @@ function personsHeight(name) {
     return "I don't know everyone's height!";
   }
 }
+
 
 
 
